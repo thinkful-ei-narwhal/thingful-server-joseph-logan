@@ -1,3 +1,5 @@
+SET TIME ZONE 'UTC';
+
 CREATE TABLE thingful_reviews (
     id SERIAL PRIMARY KEY,
     text TEXT NOT NULL,

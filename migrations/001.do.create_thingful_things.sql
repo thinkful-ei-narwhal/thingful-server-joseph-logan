@@ -1,3 +1,5 @@
+SET TIME ZONE 'UTC';
+
 CREATE TABLE thingful_things (
   id SERIAL PRIMARY KEY,
   image TEXT,

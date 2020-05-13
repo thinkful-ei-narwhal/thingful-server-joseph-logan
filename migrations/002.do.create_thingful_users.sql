@@ -1,3 +1,5 @@
+SET TIME ZONE 'UTC';
+
 CREATE TABLE thingful_users (
   id SERIAL PRIMARY KEY,
   user_name TEXT NOT NULL UNIQUE,
